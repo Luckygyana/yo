@@ -1,4 +1,4 @@
-<!-- _layouts/default.html -->
+<!-- _layouts/default.html or _layouts/paper.html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@
 <body>
   <header>
     <h1>{{ site.title }}</h1>
-    <p>Author: {{ site.author.name }}, Affiliation: {{ site.author.affiliation }}, Email: {{ site.author.email }}</p>
+    {% include author.html author=site.author %}
   </header>
   <main>
     {{ content }}
