@@ -1,23 +1,3 @@
----
-layout: distill
-title: "Time Sync Examples Dump"
-description: All Results for time sync experment
-tags: time sync
-date: 2023-11-11
-category: other
-
-authors:
-  - name: Gyanendra Das, 
-    affiliations:
-      name: Camb.AI #IIT, Dhanbad
-  - name: Matthew #Matthew Baas
-    # url: "https://rf5.github.io/"
-    affiliations:
-      name: CambAI #Stellenbosch University
-  - name: Akshat
-    affiliations:
-      name: CambAI
----
 Approach
 ============================
 1. Clustering
